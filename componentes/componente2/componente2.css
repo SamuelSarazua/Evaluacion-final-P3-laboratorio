@@ -1,0 +1,28 @@
+.cuadro2 {
+    width: 360px;
+    height: 200px;
+    border: 2px solid gray;
+    border-radius: 5%;
+    display: grid;
+    grid-template-rows: 60px 60px 60px;
+    align-items: center;
+    justify-content: center;
+    gap: 3px;
+}
+
+.input-texto {
+    width: 340px;
+    height: 50px;
+    border-radius: 7px;
+}
+
+.boton {
+    padding: 10px 20px;
+    border: 2px solid black;
+    border-radius: 10px;
+    background-color: white;
+    font-size: 1rem;
+    cursor: pointer;
+    display: flex;
+    justify-self: flex-end;
+}
