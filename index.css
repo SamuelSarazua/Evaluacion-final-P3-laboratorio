@@ -1,5 +1,19 @@
 #root {
-    max-width: 375px;
-    background-color: aqua;
+    margin: auto;
+
+    display: grid;
+    grid-template-rows: 3fr;
 }
 
+.proyect {
+    margin: auto;
+    width: 375px;
+    height: 961px;
+    border: 3px solid black;
+    border-radius: 20px;
+
+    gap: 5px;
+
+    display: flex;
+    justify-content: space-around;
+}
